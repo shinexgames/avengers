@@ -1,0 +1,132 @@
+/* font-family: 'Saira Stencil One',
+cursive;
+
+font-family: 'Chelsea Market',
+cursive;
+
+font-family: 'Montserrat',
+sans-serif;
+
+ */
+
+li,
+ol {
+    list-style: none;
+}
+
+
+
+
+
+
+
+header {
+    min-height: 100vh;
+}
+
+header .container {
+    min-height: 100vh;
+    background: rgba(255, 255, 255, 1);
+    background: -moz-linear-gradient(45deg, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 36%, rgba(237, 237, 237, 1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(36%, rgba(246, 246, 246, 1)), color-stop(100%, rgba(237, 237, 237, 1)));
+    background: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 36%, rgba(237, 237, 237, 1) 100%);
+    background: -o-linear-gradient(45deg, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 36%, rgba(237, 237, 237, 1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 36%, rgba(237, 237, 237, 1) 100%);
+    background: linear-gradient(45deg, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 36%, rgba(237, 237, 237, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed', GradientType=1);
+    background-url: 'http: //api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=626262&density=8&opacity=30';
+    padding: 0;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    padding-bottom: 60px;
+}
+
+.navbar {
+    padding: 10px;
+    padding-left: 25px;
+    margin-bottom: 45px;
+}
+
+.test-block {
+    margin: auto;
+}
+
+.test-title {
+    font-size: 39px;
+    font-family: 'Chelsea Market',
+        cursive;
+}
+
+.test-name {
+    color: red;
+}
+
+.questions-list {
+    margin-top: 75px;
+    padding: 0;
+}
+
+.question {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 45px;
+}
+
+.question li {
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+.btns {
+    text-align: center;
+}
+
+.res {
+    color: red;
+    padding: 12px 28px;
+    font-family: 'Chelsea Market',
+        cursive;
+    border: 1px solid red;
+    margin-right: 15px;
+    transition: 0.4s all;
+}
+
+.res:hover {
+    border-radius: 15px;
+    text-decoration: none;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(230, 30, 30, 1);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(230, 30, 30, 1);
+    box-shadow: 0px 0px 5px 2px rgba(230, 30, 30, 1);
+    color: red
+}
+
+.reset {
+    color: #0069d9;
+    padding: 12px 28px;
+    border: 1px solid #0069d9;
+    font-family: 'Chelsea Market',
+        cursive;
+    transition: 0.4s all;
+}
+
+.reset:hover {
+    text-decoration: none;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(28, 139, 230, 1);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(28, 139, 230, 1);
+    box-shadow: 0px 0px 5px 2px rgba(28, 139, 230, 1);
+    border-radius: 15px;
+}
+
+
+.resBlock {
+    margin-top: 60px;
+    font-family: 'Montserrat',
+        sans-serif;
+}
+
+.resBlock img {
+    margin-bottom: 15px;
+}
